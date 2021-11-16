@@ -1,0 +1,46 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Utils*/
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/*First Section*/
+
+.full-page{
+    height: 100vh;
+    background-color: #FF0000;
+    position: relative;
+}
+
+.position-img{
+    background-image: url("../img/01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: #FFDC00;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
