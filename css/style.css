@@ -44,3 +44,32 @@ h1{
     transform: translate(-50%, -50%); 
 }
 
+/*Second Section*/
+.full-page-second{
+    height: 100vh;
+    background-color: #008000;
+    position: relative;
+}
+
+.position-img-second{
+    background-image: url("../img/02.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: #FFDC00;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
